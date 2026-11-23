@@ -1,0 +1,9 @@
+rule_id,action,protocol,source,destination,port
+1,allow,tcp,10.0.0.0/24,192.168.1.10,443
+2,allow,tcp,any,192.168.1.10,22
+3,deny,udp,any,any,any
+4,allow,tcp,10.0.0.0/24,192.168.1.10,443
+5,permit,tcp,10.0.0.5,192.168.1.20,80
+6,allow,tcp,10.0.0.300,192.168.1.20,8080
+7,allow,tcp,10.0.0.0/24,192.168.1.30,70000
+8,allow,tcp,any,192.168.1.40,3389
